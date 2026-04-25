@@ -155,6 +155,13 @@ const certificates = ref([
     issuer: 'Tingkat Kota Surabaya',
     image: new URL('@/assets/LKS_KOTA.jpeg', import.meta.url).href,
     link: new URL('@/assets/LKS_KOTA.pdf', import.meta.url).href
+  },
+  {
+    id: 12,
+    title: 'Juara 3 Lomba Kompetensi Siswa',
+    issuer: 'Tingkat Provinsi Jawa Timur',
+    image: new URL('@/assets/LKS_JATIM.png', import.meta.url).href,
+    link: new URL('@/assets/LKS_JATIM.pdf', import.meta.url).href
   }
 ]);
 </script>
